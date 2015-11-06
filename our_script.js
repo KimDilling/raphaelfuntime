@@ -32,7 +32,7 @@ window.onload = function() {
 
     
 
-    var table2a = paper.rect(350, 100, 50, 50).attr({fill: 'white'});
+    var table2a = paper.rect(350, 100, 50, 50).attr({fill: 'pink'});
         table2a.node.onclick = function() {
         var img2a = paper.image('images/natalie.jpg', 350, 100, 50, 50);
     }
