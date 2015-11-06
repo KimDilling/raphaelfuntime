@@ -5,6 +5,7 @@ window.onload = function() {
     
     var podium = paper.rect(100, 10, 50, 50);
     var imgp = paper.image('images/seanwb.jpg', 100, 10, 50, 50);
+    var backgroundImage = paper.image('images/galogo.png', 100, 10, 50, 50);
 
 
 
@@ -127,7 +128,7 @@ window.onload = function() {
     var imgtt1 = paper.image('images/matt.jpg', 150, 450, 50, 50);
 
 	var teachtable2 = paper.rect(450, 450, 50, 50);
-    var imgtt2 = paper.image('images/mikewb.jpg', 450, 450, 50, 50);
+    var imgtt2 = paper.image('images/mike.jpg', 450, 450, 50, 50);
 		
  }
 
