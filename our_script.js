@@ -1,12 +1,12 @@
 
 window.onload = function() {
-    var paper = new Raphael(document.getElementById('canvas_container'), 1000, 1000);
+    var paper = new Raphael(document.getElementById('canvas_container'), 700, 700);
 
 
 
-    var podium = paper.rect(100, 10, 50, 50).attr({fill: 'orange'});
-        podium.node.onclick = function() {
-        var imgp = paper.image('images/seanwb.jpg', 100, 10, 50, 50);
+    var podium = paper.rect(100, 10, 50, 50).paper.image('images/galogo.png', 100, 10, 50, 50);
+        podium.node.onclick = function() {  
+        var backgroundImage = paper.image('images/seanwb.jpg', 100, 10, 50, 50);
     }
 
     var table1a = paper.rect(100, 100, 50, 50).attr({fill: 'green'});
@@ -148,14 +148,14 @@ window.onload = function() {
 
 
 
-	var teachtable1 = paper.rect(150, 450, 50, 50).attr({fill: 'red'});
+	var teachtable1 = paper.rect(150, 450, 50, 50).paper.image('images/galogo.png', 150, 450, 50, 50);
         teachtable1.node.onclick = function() {
         var imgtt1 = paper.image('images/matt.jpg', 150, 450, 50, 50);
     }
 
-	var teachtable2 = paper.rect(450, 450, 50, 50).attr({fill: 'black'});
+    var teachtable2 = paper.rect(450, 450, 50, 50).paper.image('images/galogo.png', 450, 450, 50, 50);
         teachtable2.node.onclick = function() {
         var imgtt2 = paper.image('images/mike.jpg', 450, 450, 50, 50);
-	}
+    }
  }
 
